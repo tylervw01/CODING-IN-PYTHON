@@ -1,11 +1,7 @@
-
+# THE PRINT() FUNC 
 print("Hello")
 print("AND")
 print("Good Bye")
-
-
-# THE PRINT() FUNC 
-
 print("The itsy bitsy spider climbed up the waterspout.")
 print("Down came the rain and washed the spider out.")
 
@@ -18,3 +14,7 @@ print("Down came the rain and washed the spider out.")
 print("The itsy bitsy spider\nclimbed up the waterspout.")
 print()
 print("Down came the rain\nand washed the spider out.")
+
+# END KEYWORD
+print("My name is", "Python.", end=" ")
+print("Monty Python.")
