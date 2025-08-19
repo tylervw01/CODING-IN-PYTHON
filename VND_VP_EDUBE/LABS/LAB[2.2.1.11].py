@@ -1,4 +1,1 @@
-print('"'"I'm"'"''\n'
-      '""'"learning"'""''\n'
-      '"""'"Python"'"""''\n'
-      )
+print('"'"I'm"'"''\n', '""'"learning"'""''\n', '"""'"Python"'"""''\n')
