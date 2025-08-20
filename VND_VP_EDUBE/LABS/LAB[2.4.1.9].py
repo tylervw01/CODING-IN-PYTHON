@@ -1,3 +1,9 @@
+# Objectives
+# becoming familiar with the concept of, and working with, variables;
+# performing basic computations and conversions;
+# experimenting with Python code.
+# Scenario
+# Miles and kilometers are units of length or distance.
 Kilometers = 12.25
 Miles = 7.38
 
