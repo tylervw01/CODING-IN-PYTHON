@@ -2,14 +2,13 @@
 Spathiphyllum = (input("Enter the first flower: "))
 spathiphyllum = (input("Enter the second flower: "))
 
-# We now declare who is bigger
-largest_flower = Spathiphyllum
+# We now declare who is the largest
+larger_flower = Spathiphyllum
 
 # The If statement
-if spathiphyllum < largest_flower:
-    largest_flower = spathiphyllum
+if spathiphyllum < larger_flower:
+    larger_flower = Spathiphyllum
+    print("Yes, Spathiphyllum is the best plant ever!\n")
 
-# Print the result
-print("Yes, Spathiphyllum is the best plant:", largest_flower)
-print( )
- 
+else:
+    print("No, I want a big Spathiphyllum!")
