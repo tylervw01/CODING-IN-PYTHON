@@ -1,8 +1,10 @@
 x = float(input("Enter value for x: "))
+# y = float(input("Enter value for y: "))
 
 # Write your code here.
-y = x + 1
-y = y * 2
-y = y / 3
-y = x % 4
-print("y =", y)
+y = 1 / (x + 1/(x + 1 /(x + (1 / x))))
+
+# x = y * 2
+
+print("y =", y,)
+# print("x =", x)
