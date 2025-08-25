@@ -10,4 +10,3 @@ if days < 0 or hours < 0:
 else:
     total_minutes = (days * 24 * 60) + (hours * 60)
     print("Total minutes:", total_minutes)
-    
