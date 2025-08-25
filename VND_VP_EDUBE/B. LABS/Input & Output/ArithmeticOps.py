@@ -23,5 +23,10 @@ print("Multiplication Result =", result_multiplication)
 # Output the result of division
 result_division = var1 / var2
 print("Division Result =", result_division)
-
+#bdfbtrghrbhdbhdrhdbhdbdbdrbdbgdrbgdrbd
+# dd
+# dtbdbdbdrbdrbdrbdrbdghdtrgdfgdbtbdtbh
+# dtbdfbfbgftbhthtdhtbthgfhtynjfyjnfyhnfybn
+# tttttttttttttttttttttttttttttttttttttt
+# #
 print("\nThat's all, folks!")
