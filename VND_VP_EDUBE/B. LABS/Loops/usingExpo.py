@@ -8,7 +8,7 @@ import time
 for i in range(1, 6):
     print("Mississippi")
     # print(f"{i} Mississippi")
-    time.sleep(1)
+    time.sleep(2)
 
 print("Ready or not, here I come!")
 
