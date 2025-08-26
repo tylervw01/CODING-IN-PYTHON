@@ -11,3 +11,12 @@ for letter in user_word:
    
         print(letter)
 
+while True:
+    
+    word = input("Enter a word: ")
+    
+    if word == "Leave":
+        
+        print("You've successfully left the loop.")
+        
+        break
