@@ -1,20 +1,48 @@
-# Step 1: Create an empty list
 beatles = []
+# print(beatles)
 
-# Step 2: Add initial members
-beatles.append("John Lennon")
-beatles.append("Paul McCartney")
-beatles.append("George Harrison")
+beatles.append("JOHN LENON")
+beatles.append("PAUL McCARTHY")
+beatles.append("GEORGE HARRISON")
+print(beatles)
 
-# Step 3: Prompt user to add Stu Sutcliffe and Pete Best
-for member in ["Stu Sutcliffe", "Pete Best"]:
-    beatles.append(input(f"Add {member}: "))
+for member in range(2): 
+        beatles.append(input("New Band member: "))
+# ["STU SUTCLIFFE", "PETE BEST"]:
+print("beatles")
+    
+del beatles[-1]
+del beatles[-1]
+print(beatles)
 
-# Step 4: Remove Stu Sutcliffe and Pete Best
-del beatles[-1]  # Remove Pete Best
-del beatles[-1]  # Remove Stu Sutcliffe
+beatles.insert(0, "RINGO STARR")
+print(beatles)
 
-# Step 5: Add Ringo Starr to the beginning
-beatles.insert(0, "Ringo Starr")
+print("THE FINAL BEATLES LINEUP:", beatles)
+#########################################################
 
-print("Final Beatles lineup:", beatles)
+# # step 1:
+# Beatles = []
+# print("Step 1:", Beatles)
+
+# # step 2:
+
+# Beatles.append("John Lennon")
+# Beatles.append("Paul McCartney")
+# Beatles.append("George Harrison")
+# print("Step 2:", Beatles)
+
+# # step 3:
+# for members in range(2):
+#     Beatles.append(input("New band member: "))
+# print("Step 3:", Beatles)
+
+# # step 4:
+# del Beatles[-1]
+# del Beatles[-1]
+# print("Step 4:", Beatles)
+
+# # step 5:
+# Beatles.insert(0, "RingoStarr")
+# print("Step 5:", Beatles)
+# print("The Fab:",len(Beatles))
