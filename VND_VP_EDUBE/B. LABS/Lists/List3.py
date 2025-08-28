@@ -7,4 +7,3 @@ for number in my_list:
 my_list = new_list[:]
 print("The list with unique elements only:")
 print(my_list)
-
