@@ -2,12 +2,6 @@
 # -Your task is to write and test a function which takes two arguements(a year and a month) and returns the number of days for the given month/year pair (while only February) is sensitive to the YEAR value, your function should be universal).
 # #
 def is_year_leap(year):
-    #code from lab 6
-    def days_in_month(year, month):
-        #new code here
-        #
-    
-    def is_year_leap(year):
 	if year % 4 != 0:
 		return False
 	elif year % 100 != 0:
