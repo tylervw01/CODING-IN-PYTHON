@@ -1,4 +1,5 @@
-
+#Question 3:
+#Write a Python program
 
 
 students = ("Alice", "Bob", "Charlie")
