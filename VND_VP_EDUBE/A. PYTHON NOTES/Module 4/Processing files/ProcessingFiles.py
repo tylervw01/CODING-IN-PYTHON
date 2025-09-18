@@ -45,14 +45,32 @@
 
 #####################################################
 # DEALING WIH TEXT FILES: WRITE()
+# from os import strerror
+
+# try:
+# 	fo = open('newtext.txt', 'wt') # A new file (newtext.txt) is created.
+# 	for i in range(10):
+# 		s = "line #" + str(i+1) + "\n"
+# 		for ch in s:
+# 			fo.write(ch)
+# 	fo.close()
+# except IOError as e:
+# 	print("I/O error occurred: ", strerror(e.errno))
+
+########################################################
+# BYTEARRAYS: CON
 from os import strerror
 
+data = bytearray(10)
+
+for i in range(len(data)):
+    data[i] = 10 + i
+
 try:
-	fo = open('newtext.txt', 'wt') # A new file (newtext.txt) is created.
-	for i in range(10):
-		s = "line #" + str(i+1) + "\n"
-		for ch in s:
-			fo.write(ch)
-	fo.close()
+    bf = open('file.bin', 'wb')
+    bf.write(data)
+    bf.close()
 except IOError as e:
-	print("I/O error occurred: ", strerror(e.errno))
+    print("I/O error occurred:", strerror(e.errno))
+
+# Your code that reads bytes from the stream should go here.
