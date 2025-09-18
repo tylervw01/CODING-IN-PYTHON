@@ -4,6 +4,7 @@ from os import strerror
 # Note: we've used comprehension to do that.
 counters = {chr(ch): 0 for ch in range(ord('a'), ord('z') + 1)}
 file_name = input("Enter the name of the file to analyze: ") # ENTER FILE LOCATION
+#C:\Users\Tyler\OneDrive - NewBridge Graduate Institute\Desktop\file.txt
 try:
     f = open(file_name, "rt")
     for line in f:
