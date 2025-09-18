@@ -23,3 +23,22 @@
 # stream = open("tzop.txt", "rt", encoding = "utf-8")
 
 # print(stream.read()) # printing the content of the file
+
+
+
+
+#WORKING PROCESSING COMPLETE
+from os import strerror
+
+try:
+    ccnt = lcnt = 0
+    with open(r"C:\Users\Tyler\OneDrive - NewBridge Graduate Institute\Desktop\file.txt", 'rt') as s:
+        for line in s:
+            lcnt += 1
+            for ch in line:
+                print(ch, end='')
+                ccnt += 1
+    print("\n\nCharacters in file:", ccnt)
+    print("Lines in file:     ", lcnt)
+except IOError as e:
+    print("I/O error occurred:", strerror(e.errno))
