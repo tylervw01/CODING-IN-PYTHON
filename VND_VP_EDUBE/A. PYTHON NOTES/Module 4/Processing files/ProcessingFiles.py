@@ -25,20 +25,34 @@
 # print(stream.read()) # printing the content of the file
 
 
-
+###################################################
 
 #WORKING PROCESSING COMPLETE
+# from os import strerror
+
+# try:
+#     ccnt = lcnt = 0
+#     with open(r"C:\Users\Tyler\OneDrive - NewBridge Graduate Institute\Desktop\file.txt", 'rt') as s:
+#         for line in s:
+#             lcnt += 1
+#             for ch in line:
+#                 print(ch, end='')
+#                 ccnt += 1
+#     print("\n\nCharacters in file:", ccnt)
+#     print("Lines in file:     ", lcnt)
+# except IOError as e:
+#     print("I/O error occurred:", strerror(e.errno))
+
+#####################################################
+# DEALING WIH TEXT FILES: WRITE()
 from os import strerror
 
 try:
-    ccnt = lcnt = 0
-    with open(r"C:\Users\Tyler\OneDrive - NewBridge Graduate Institute\Desktop\file.txt", 'rt') as s:
-        for line in s:
-            lcnt += 1
-            for ch in line:
-                print(ch, end='')
-                ccnt += 1
-    print("\n\nCharacters in file:", ccnt)
-    print("Lines in file:     ", lcnt)
+	fo = open('newtext.txt', 'wt') # A new file (newtext.txt) is created.
+	for i in range(10):
+		s = "line #" + str(i+1) + "\n"
+		for ch in s:
+			fo.write(ch)
+	fo.close()
 except IOError as e:
-    print("I/O error occurred:", strerror(e.errno))
+	print("I/O error occurred: ", strerror(e.errno))
