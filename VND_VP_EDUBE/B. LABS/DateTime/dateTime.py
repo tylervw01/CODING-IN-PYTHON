@@ -9,3 +9,6 @@
 # print(my_date.strftime("Weekday: %w"))
 # print(my_date.strftime("Day of the year: %j"))
 # print(my_date.strftime("Week number of the year: %W"))
+
+#LINK TOO PYTHON LIBRARIES
+# https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes 
