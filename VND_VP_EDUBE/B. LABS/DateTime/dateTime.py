@@ -1,5 +1,5 @@
 #LINK TOO PYTHON LIBRARIES
-# https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes 
+#  https://docs.python.org/3/library/datetime.html#strftime-and-strptime-format-codes 
 
 
 from datetime import datetime
