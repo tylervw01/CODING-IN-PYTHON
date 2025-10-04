@@ -67,7 +67,7 @@ print("Step 3:", beatles)
 # Step 4: Remove Stu Sutcliffe and Pete Best
 del beatles[-2]  # Assuming they were added in order
 del beatles[-1]
-print("Step 4:", beatles)
+print("Step 4:", beatles)                                   
 
 # Step 5: Add Ringo Starr to the beginning of the list
 beatles.insert(0, "Ringo Starr")
