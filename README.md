@@ -1,6 +1,6 @@
 # CODING-IN-PYTHON
 
-Welcome to Tyler’s legacy grind hub for Python mastery.
+Welcome to my grind hub for Python mastery.
 
 ## 🔧 Structure
 
@@ -20,7 +20,3 @@ This repo powers Tyler’s Netlify-deployed museum of Python evolution—grind l
 
 Every file is a chapter. Every grind is a milestone.  
 This is not just code—it’s a timeline.
-
----
-
-Ready to expand with badges, Netlify link, or contribution notes when you say go.
