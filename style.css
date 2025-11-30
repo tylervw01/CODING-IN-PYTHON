@@ -1,0 +1,72 @@
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  font-family: "Courier New", Courier, monospace;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+/* Header */
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #39ff14; /* Python neon green */
+}
+
+header p {
+  font-size: 1rem;
+  color: #8b949e;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #58a6ff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #39ff14;
+}
+
+/* Sections */
+section {
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  color: #39ff14;
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #8b949e;
+  border-top: 1px solid #21262d;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
