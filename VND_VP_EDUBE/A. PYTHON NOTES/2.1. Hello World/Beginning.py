@@ -5,12 +5,12 @@ print("Good Bye")
 print("The itsy bitsy spider climbed up the waterspout.")
 print("Down came the rain and washed the spider out.")
 
-# HOW TO CREATE SPACE INBETWEEN
+# HOW TO CREATE SPACE IN BETWEEN
 print("The itsy bitsy spider climbed up the waterspout.")
 print()
 print("Down came the rain and washed the spider out.")
 
-# FOR BETTER NEWLINING WE USE BACKSLASH & N (\n)
+# FOR BETTER NEW LINING WE USE BACKSLASH & N (\n)
 print("The itsy bitsy spider\nclimbed up the waterspout.")
 print()
 print("Down came the rain\nand washed the spider out.")

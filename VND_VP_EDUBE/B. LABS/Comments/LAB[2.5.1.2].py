@@ -4,7 +4,7 @@
 # replacing Comments with code;
 #     SCENARIO:
 # The code in the editor contains comments. Try to improve it: add or remove comments
-#  where you find it appropriate( yes, sometimes removing a comment can make the code more readalbe), and change variable names where you think this will imporve code comprehension.
+#  where you find it appropriate( yes, sometimes removing a comment can make the code more readable), and change variable names where you think this will improve code comprehension.
 ##################
 
 #this program computes the number of seconds in a given number of hours
